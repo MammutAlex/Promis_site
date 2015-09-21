@@ -12,7 +12,7 @@ function fadeOutnojquery(el) {
 window.onload = function () {
     setTimeout(function () {
         fadeOutnojquery(hellopreloader);
-    }, 1000);
+    }, 1);
 };
 /* activate scrollspy menu */
 $('body').scrollspy({
