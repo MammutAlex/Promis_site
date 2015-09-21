@@ -1,0 +1,25 @@
+{
+  "name": "Promis",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "animate.css": "^3.4.0",
+    "bootstrap": "^3.3.5",
+    "font-awesome": "^4.4.0",
+    "jquery": "^2.1.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MammutCris/Promis_site.git"
+  },
+  "author": "mammut",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MammutCris/Promis_site/issues"
+  }
+}
