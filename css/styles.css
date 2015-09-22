@@ -156,7 +156,7 @@ section {
 }
 
 #section3 {
-    background-color: #252525;
+    background-color: rgba(37, 37, 37, 0.75);
     color: #b9b9b9;
 }
 
@@ -166,7 +166,7 @@ section {
 }
 
 #section5 {
-    background-color: #252525;
+    background-color: rgb(37, 37, 37);
     color: #b9b9b9;
 }
 
