@@ -156,7 +156,7 @@ section {
 }
 
 #section3 {
-    background-color: rgba(37, 37, 37, 0.75);
+    background-color: rgb(37, 37, 37);
     color: #b9b9b9;
 }
 
@@ -166,16 +166,16 @@ section {
 }
 
 #section5 {
-    background-color: rgba(37, 37, 37, 0.75);
+    background-color: rgb(37, 37, 37);
     color: #b9b9b9;
 }
 
 #section6 {
-    background-color: rgba(37, 37, 37, 0.75);
-    color: #b9b9b9;
+    background-color: #2b2b2b;
     min-height: 130px;
     padding-top: 40px;
     padding-bottom: 40px;
+    color: #fff;
 }
 
 #section7 {
@@ -338,9 +338,18 @@ footer .nav > li > a:hover {
 }
 
 .sections1 {
-    background-color: rgba(0, 20, 27, 0.74);
+    background: center no-repeat fixed url('../img/background2.jpg');
+    background-color: rgba(28, 38, 48, 0.76);
+}
+
+.sections2 {
+    background: center no-repeat fixed url('../img/background3.jpg');
+    background-color: rgba(0, 46, 62, 0.8);
 }
 
 .width-companion {
     width: 80%;
+}
+.color{
+    background: rgba(37, 37, 37, 0.8) center no-repeat fixed url('../img/background2.jpg');
 }
