@@ -3,7 +3,7 @@
 
 html, body {
     height: 100%;
-    background: center no-repeat fixed url('http://www.wallpaperup.com/uploads/wallpapers/2013/02/26/45554/37849d86ea06be48f9405ef87f69a2c7.jpg');
+    background: center no-repeat fixed url('../img/background.jpg');
     background-size: cover;
     color: #444;
     font-family: 'Ubuntu', sans-serif;
@@ -25,6 +25,7 @@ a:hover {
 
 .btn, .well, .panel {
     border-radius: 0;
+    color: #444444;
 }
 
 .btn-danger {
@@ -155,16 +156,18 @@ section {
 }
 
 #section3 {
-    background-color: #e2e2e2;
+    background-color: #252525;
+    color: #b9b9b9;
 }
 
 #section4 {
-    background-color: #2b2b2b;
-    color: #fff;
+
+    background-color: #d1d1d1;
 }
 
 #section5 {
-    background-color: #e2e2e2;
+    background-color: #252525;
+    color: #b9b9b9;
 }
 
 #section6 {
@@ -206,14 +209,17 @@ footer .nav > li > a:hover {
 }
 
 .logo-lg {
-    width: 30%;
+    width: 40%;
 }
-.logo-md{
+
+.logo-md {
     width: 50%;
 }
+
 .logo-sm {
     width: 60%;
 }
+
 .logo-xs {
     width: 80%;
 }
@@ -333,4 +339,8 @@ footer .nav > li > a:hover {
 
 .sections1 {
     background-color: rgba(0, 20, 27, 0.74);
+}
+
+.width-companion {
+    width: 100%;
 }
