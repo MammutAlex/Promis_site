@@ -166,16 +166,16 @@ section {
 }
 
 #section5 {
-    background-color: rgb(37, 37, 37);
+    background-color: rgba(37, 37, 37, 0.75);
     color: #b9b9b9;
 }
 
 #section6 {
-    background-color: #2b2b2b;
+    background-color: rgba(37, 37, 37, 0.75);
+    color: #b9b9b9;
     min-height: 130px;
     padding-top: 40px;
     padding-bottom: 40px;
-    color: #fff;
 }
 
 #section7 {
