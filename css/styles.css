@@ -161,8 +161,8 @@ section {
 }
 
 #section3 {
-    background-color: rgb(4, 20, 37);
-    color: #b9b9b9;
+    background-color: rgba(4, 20, 37, 0.85);
+    color: #ffffff;
 }
 
 #section4 {
@@ -171,27 +171,23 @@ section {
 }
 
 #section5 {
-    background-color: rgb(4, 20, 37);
-    color: #b9b9b9;
+    background-color: rgba(4, 20, 37, 0.85);
+    color: #ffffff;
 }
 
 #section6 {
-    background-color: #041425;
+    background-color: #d1d1d1;
     min-height: 130px;
     padding-top: 40px;
     padding-bottom: 40px;
-    color: #fff;
 }
 
 #section7 {
-    background-color: #f44d3c;
-    color: #f6f6f6;
-    min-height: 130px;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    background-color: rgba(4, 20, 37, 0.85);
+    color: #ffffff;
 }
 
-footer {
+#footer {
     background-color: #2b2b2b;
     color: #ddd;
     min-height: 100px;
@@ -199,12 +195,12 @@ footer {
     padding-bottom: 40px;
 }
 
-footer .nav > li > a {
+#footer .nav > li > a {
     padding: 3px;
     color: #f44d3c;
 }
 
-footer .nav > li > a:hover {
+#footer .nav > li > a:hover {
     background-color: transparent;
     color: #fff;
 }
@@ -359,4 +355,10 @@ footer .nav > li > a:hover {
 
 strong{
     color: #102f4c;
+}
+.strong{
+    color: #102f4c;
+}
+td{
+    margin-left: 25%;
 }
