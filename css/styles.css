@@ -29,11 +29,11 @@ a:hover {
 }
 
 .btn-danger {
-    background-color: #f44d3c;
+    background-color: #2d9df4;
 }
 
 .text-danger, a.text-danger {
-    color: #f44d3c;
+    color: #2d9df4;
 }
 
 .btn-huge {
@@ -61,16 +61,16 @@ a:hover {
 
 .navbar-trans .navbar-brand, .navbar-trans > .container-fluid .navbar-brand {
     padding: 14px;
-    color: #f44d3c;
+    color: #8b7e09;
 }
 
 .navbar-trans li > a:focus, .navbar-trans li.active {
-    background-color: #f44d3c;
+    background-color: #f4ec32;
     color: #333;
 }
 
 .navbar-trans li > a:hover {
-    background-color: #f44d3c;
+    background-color: #102f4c;
     color: #fff;
     opacity: 0.5;
 }
@@ -156,7 +156,7 @@ section {
 }
 
 #section3 {
-    background-color: rgb(37, 37, 37);
+    background-color: rgb(4, 20, 37);
     color: #b9b9b9;
 }
 
@@ -166,12 +166,12 @@ section {
 }
 
 #section5 {
-    background-color: rgb(37, 37, 37);
+    background-color: rgb(4, 20, 37);
     color: #b9b9b9;
 }
 
 #section6 {
-    background-color: #2b2b2b;
+    background-color: #041425;
     min-height: 130px;
     padding-top: 40px;
     padding-bottom: 40px;
@@ -338,17 +338,15 @@ footer .nav > li > a:hover {
 }
 
 .sections1 {
-    background: center no-repeat fixed url('../img/background2.jpg');
-    background-color: rgba(28, 38, 48, 0.76);
+    background: rgba(28, 38, 48, 0.76) url('../img/background2.jpg') no-repeat fixed center;
 }
 
 .sections2 {
-    background: center no-repeat fixed url('../img/background3.jpg');
-    background-color: rgba(0, 46, 62, 0.8);
+    background: rgba(0, 46, 62, 0.8) url('../img/background3.jpg') no-repeat fixed center;
 }
 
 .width-companion {
-    width: 80%;
+    width: 110%;
 }
 .color{
     background: rgba(37, 37, 37, 0.8) center no-repeat fixed url('../img/background2.jpg');
