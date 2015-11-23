@@ -12,8 +12,10 @@
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"/>
     <link href="node_modules/font-awesome/css/font-awesome.min.css" rel="stylesheet"/>
     <link href="node_modules/animate.css/animate.min.css" rel="stylesheet"/>
-
+    <link href="node_modules/flag-icon-css/assets/docs.css" rel="stylesheet">
+    <link href="node_modules/flag-icon-css/css/flag-icon.css" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css"/>
+    <link href="js/fotorama-4.6.4/fotorama.css" rel="stylesheet">
 </head>
 <body>
 <div id="hellopreloader">
@@ -295,9 +297,9 @@
                 <h3 class="strong">Комплекс наукової апаратури в цілому</h3>
 
                 <div class="media-body media-middle">
-                    <p>маса до 20 кг<br>
-                        енергоспоживання до 51 Вт<br>
-                        інформативність до 6 Гбайт за добу</p>
+                    <p>Маса до 20 кг<br>
+                        Енергоспоживання до 51 Вт<br>
+                        Інформативність до 6 Гбайт за добу</p>
                 </div>
             </div>
             <hr>
@@ -305,7 +307,13 @@
                 <h3 class="strong">Магнітно-хвильовий комплекс MWC </h3>
 
                 <div class="media-left">
-                    <img src="img/100.png">
+                    <div class="fotorama"
+                    data-autoplay="true" data-arrows="false">
+
+                        <img src="img/FGM_small.jpg">
+                        <img src="img/WP_small.jpg">
+                        <img src="img/EP_small.jpg">
+                    </div>
                 </div>
                 <div class="media-body media-middle">
                     <p>В складі ферозондового магнітометру FGM, 3-х хвильових зондів WP, електричного зонду ЕР</p>
@@ -324,7 +332,10 @@
                     PI: H. Rothkaehl, Центр космічних досліджень, м. Варшава, Польща
                 </div>
                 <div class="media-right">
-                    <img src="img/100.png">
+                    <div class="fotorama"
+                    data-autoplay="true" data-arrows="false">
+                        <img src="img/RFA_small.jpg">
+                    </div>
                 </div>
             </div>
             <hr>
@@ -332,7 +343,11 @@
                 <h3 class="strong">Аналізатор густини частинок</h3>
 
                 <div class="media-left">
-                    <img src="img/100.png">
+                    <div class="fotorama"
+                    data-autoplay="true" data-arrows="false">
+                        <img src="img/DE_small.jpg">
+                        <img src="img/DN_small.jpg">
+                    </div>
                 </div>
                 <div class="media-body media-middle">
                     <p>В складі блока датчиків нейтрального компоненту плазми DN і блока датчиків електронного
@@ -352,7 +367,10 @@
                     PI: Л. Банков, Інститут космічних досліджень і технологій, м. Софія, Болгарія
                 </div>
                 <div class="media-right">
-                    <img src="img/100.png">
+                    <div class="fotorama"
+                    data-autoplay="true" data-arrows="false">
+                        <img src="img/IDM_small.jpg">
+                    </div>
                 </div>
             </div>
             <hr>
@@ -360,7 +378,10 @@
                 <h3 class="strong">Система збору наукової інформації.</h3>
 
                 <div class="media-left">
-                    <img src="img/100.png">
+                    <div class="fotorama"
+                    data-autoplay="true" data-arrows="false">
+                        <img src="img/ССНИ_small.jpg">
+                    </div>
                 </div>
                 <div class="media-body media-middle">
                     <p>PI: А. Лукенюк, Львівський центр Інституту космічних досліджень, м. Львів, Україна</p>
@@ -389,41 +410,31 @@
             <hr>
             <h4 class="text-center">В публікаціях, основаних на результатах проекту «Іоносат – Мікро»<br>
                 треба вказувати посилання на авторські права</h4>
-
-            <div class="row">
-
-                <div class="col-sm-4">
-                    <div class="row">
-                        <div class="col-sm-12 text-center">
-                            <div class="panel panel-default slideInLeft animate">
-                                <div class="panel-heading"></div>
+                <div class="center-block hidden-xs" style="width:500%;">
+                    <div class="fotorama"
+                    data-autoplay="true"
+                    data-ratio="500/150">
+                        <div>
+                            <div class="panel panel-default slideInLeft animate fotorama__select">
+                                <div class="panel-heading">UA</div>
+                                <div class="panel-body">
+                                    «Дані вимірювань надані колективом проекту «Іоносат – Мікро», який реалізується
+                                    в рамках космічної програми України (http://promis.ikd.kiev.ua/)»
+                                </div>
+                            </div>     
+                        </div>
+                        <div>
+                            <div class="panel panel-default slideInLeft animate fotorama__select">
+                                <div class="panel-heading">RU</div>
                                 <div class="panel-body">
                                     «Дані вимірювань надані колективом проекту «Іоносат – Мікро», який реалізується
                                     в рамках космічної програми України (http://promis.ikd.kiev.ua/)»
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-                <div class="col-sm-4 text-center">
-                    <div class="row">
-                        <div class="col-sm-12 text-center">
-                            <div class="panel panel-default slideInUp animate">
-                                <div class="panel-heading"></div>
-                                <div class="panel-body">
-                                    «Данные измерений предоставлены коллективом проекта «Ионосат – Микро»,
-                                    реализуемого в рамках
-                                    космической программы Украины (http://promis.ikd.kiev.ua/)»
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4 text-center">
-                    <div class="row">
-                        <div class="col-sm-12 text-center">
-                            <div class="panel panel-default slideInRight animate">
-                                <div class="panel-heading"></div>
+                        <div>
+                            <div class="panel panel-default slideInRight animate fotorama__select">
+                                <div class="panel-heading">EN</div>
                                 <div class="panel-body">
                                     «The measurement data are provided by the team of Ionosat – Micro Mission that
                                     is realized in
@@ -433,7 +444,40 @@
                         </div>
                     </div>
                 </div>
-            </div>
+                <div class="center-block visible-xs-block" style="width:100%;">
+                    <div class="fotorama"
+                    data-autoplay="true"
+                    data-ratio="100/80">
+                        <div>
+                            <div class="panel panel-default slideInLeft animate fotorama__select">
+                                <div class="panel-heading">UA</div>
+                                <div class="panel-body">
+                                    «Дані вимірювань надані колективом проекту «Іоносат – Мікро», який реалізується
+                                    в рамках космічної програми України (http://promis.ikd.kiev.ua/)»
+                                </div>
+                            </div>     
+                        </div>
+                        <div>
+                            <div class="panel panel-default slideInLeft animate fotorama__select">
+                                <div class="panel-heading">RU</div>
+                                <div class="panel-body">
+                                    «Дані вимірювань надані колективом проекту «Іоносат – Мікро», який реалізується
+                                    в рамках космічної програми України (http://promis.ikd.kiev.ua/)»
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="panel panel-default slideInRight animate fotorama__select">
+                                <div class="panel-heading">EN</div>
+                                <div class="panel-body">
+                                    «The measurement data are provided by the team of Ionosat – Micro Mission that
+                                    is realized in
+                                    the frame of the Space Programme of Ukraine (http://promis.ikd.kiev.ua/)»
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             <div class="row">
                 <div class="col-sm-8 col-sm-offset-2">
                     <h3 class="text-center">Структура даних</h3>
@@ -518,7 +562,7 @@
                             <th>Участь в проекті</th>
                         </tr>
                         <tr>
-                            <td colspan="2"><h4 class="text-center strong">Україна </h4></td>
+                            <td colspan="2"><h4 class="text-center strong">Україна </h4><span class="flag-icon flag-icon-ua"></span></td>
                         </tr>
                         <tr>
                             <td>Інститут космічних досліджень,
@@ -558,7 +602,10 @@
                             <td>Управління польотом, прийом наукової та телеметричної інформації з борта КА</td>
                         </tr>
                         <tr>
-                            <td colspan="2"><h4 class="text-center strong">Польща</h4></td>
+                            <td colspan="2">
+                            
+                            <h4 class="text-center strong">Польща  <span class="label label-primary"><span class="flag-icon flag-icon-gr"></div></h4>
+                            </td>
                         </tr>
                         <tr>
                             <td>Центр космічних досліджень,
@@ -567,7 +614,8 @@
                             <td>Виготовлення приладу RFA, проведення космічних вимірювань, оброблення даних</td>
                         </tr>
                         <tr>
-                            <td colspan="2"><h4 class="text-center strong">Болгарія</h4></td>
+                        
+                            <td colspan="2"><span class="flag-icon flag-icon-bg"></span><h4 class="text-center strong">Болгарія</h4></td>
                         </tr>
                         <tr>
                             <td>Інститут космічних досліджень та технологій,
@@ -851,6 +899,8 @@
 <!--scripts loaded here-->
 
 <script src="node_modules/jquery/dist/jquery.min.js"></script>
+
+  <script src="js/fotorama-4.6.4/fotorama.js"></script>
 <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 
 <script src="js/scripts.js"></script>

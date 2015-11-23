@@ -229,23 +229,6 @@ section {
     width: 20%;
 }
 
-.flag {
-    width: 32px;
-    height: 32px;
-    background: url(flags.png) no-repeat
-}
-
-.flag.flag-bg {
-    background-position: -32px 0
-}
-
-.flag.flag-pl {
-    background-position: 0 -32px
-}
-
-.flag.flag-ua {
-    background-position: -32px -32px
-}
 
 #hellopreloader_preload {
     display: block;
@@ -365,3 +348,8 @@ td{
 .titles{
     color: #777;
 }
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  }

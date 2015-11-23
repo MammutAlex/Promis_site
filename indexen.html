@@ -1,0 +1,823 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Section scroller one-page template</title>
+    <meta name="description"
+          content="This one page example has a fixed navbar and full page height sections. Each section is vertically centered on larger screens, and then stack responsively on smaller screens. Scrollspy is used to activate the current menu item. This layout also has a contact form example. Uses animate.css, FontAwesome, Google Fonts (Lato and Bitter) and Bootstrap."/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content="Codeply">
+
+
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"/>
+    <link href="node_modules/font-awesome/css/font-awesome.min.css" rel="stylesheet"/>
+    <link href="node_modules/animate.css/animate.min.css" rel="stylesheet"/>
+
+    <link rel="stylesheet" href="css/styles.css"/>
+</head>
+<body>
+<div id="hellopreloader">
+    <div id="hellopreloader_preload">
+        <div id="loader-wrapper">
+            <div id="loader"></div>
+        </div>
+    </div>
+</div>
+
+<nav class="navbar navbar-trans navbar-fixed-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapsible">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand text-danger">PROMIS</a>
+        </div>
+        <div class="navbar-collapse collapse" id="navbar-collapsible">
+            <ul class="nav navbar-nav navbar-left">
+                <li><a href="#section2"><b>Головна</b></a></li>
+
+                <li class="visible-lg-block"><a href="#section3"><b>Космічний апарат та орбіта</b></a></li>
+                <li class="hidden-lg"><a href="#section3"><b>КА</b></a></li>
+
+                <li class="visible-lg-block"><a href="#section4"><b>Комплекс наукової апаратури</b></a></li>
+                <li class="hidden-lg"><a href="#section4"><b>КНА</b></a></li>
+
+                <li class="visible-lg-block"><a href="#section5"><b>Дані спостережень</b></a></li>
+                <li class="hidden-lg"><a href="#section5"><b>Дані</b></a></li>
+
+                <li><a href="#section6"><b>Консорціум</b></a></li>
+                <li><a href="#section7"><b>Джерела</b></a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<section class="container-fluid" id="section1">
+    <div class="v-center visible-lg-block">
+        <img src="img/logo.gif" class="center-block logo-lg">
+    </div>
+    <div class="v-center visible-md-block">
+        <img src="img/logo.gif" class="center-block logo-md">
+    </div>
+    <div class="v-center visible-sm-block">
+        <img src="img/logo.gif" class="center-block logo-sm">
+    </div>
+    <div class="v-center visible-xs-block">
+        <img src="img/logo.gif" class="center-block logo-xs">
+    </div>
+    <a href="#section2">
+        <div class="scroll-down bounceInDown animated">
+            <span>
+                <i class="fa fa-angle-double-down fa-2x"></i>
+            </span>
+        </div>
+    </a>
+</section>
+
+<section class="container-fluid" id="section2">
+    <div class="row">
+        <div class="col-sm-12 col-md-10 col-md-offset-1">
+            <div class="row">
+                <div class="col-sm-8">
+                    <div class="panel panel-default slideInLeft animate">
+                        <div class="panel-heading">
+                            <h3 class="strong">Головна</h3></div>
+                        <div class="panel-body">
+                            <p><strong><u>Проект «Іоносат – Мікро»</u></strong> здійснюється на борту космічного апарату
+                                «Мікросат-М» в
+                                рамках реалізації Загальнодержавної цільової науково-технічної космічної
+                                програми
+                                України.</p>
+
+                            <p><strong><u>Метою проекту</u></strong> є вивчення динамічних процесів в іоносфері, за
+                                допомогою узгоджених
+                                космічних та наземних вимірювань, для пошуку взаємозв’язку іоносферних збурень з
+                                процесами на Сонці, в магнітосфері, атмосфері та внутрішніх оболонках Землі.</p>
+
+                            <p>
+
+                                <strong><u>Часткові завдання проекту</u></strong>:
+                                Створення та апробація в льотних умовах комплексу наукової апаратури для
+                                реєстрації
+                                параметрів іоносфери;<br>
+                                Відпрацювання методик здійснення іоносферного моніторингу космічними та
+                                наземними
+                                засобами;<br>
+                                Перевірка технічних рішень при створенні супутникової платформи;<br>
+                                Створення бази даних та веб-інтерфейсу результатів проекту. Включення
+                                іоносферних
+                                спостережень до глобальних геоінформаційних систем.</p>
+
+                            <p><strong><u>Принципи проекту</u></strong>:
+                                Комплексна діагностика стану іоносфери в широкому діапазоні часових і
+                                просторових
+                                масштабів;<br>
+                                Верховенство моніторингових режимів вимірювань;<br>
+                                Створення бази даних параметрів збуреної іоносфери в інтересах дослідження:<br>
+                                Фундаментальної фізики іоносфери, космічної погоди терагенних та антропогенних ефектів в
+                                космосі.</p>
+
+                            <p><strong><u>Комплекс наукової апаратури на борту «Мікросат-М» призначається для
+                                реєстрації</u></strong>:<br>
+                                Глобальної структури нейтральної атмосфери (екзосфери) та іоносферної
+                                плазми;<br>
+                                Просторової структури і динаміки іоносферних струмових систем і магнітного
+                                поля Землі;<br>
+                                Електромагнітних хвильових структур УНЧ – КНЧ – ДНЧ діапазону.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="panel panel-default slideInRight animate">
+                                <div class="panel-heading">
+                                    <h3 class="strong">Загальна інформація</h3>
+                                </div>
+                                <div class="panel-body ">
+                                    <div class="panel panel-default">
+                                        <div class="panel-body color">
+                                            <img src="img/2_2_middle.gif"
+                                                 class="center-block width-companion">
+
+                                        </div>
+                                    </div>
+
+
+                                    <p><strong><u>Замовник</u></strong>: Державне космічне агентство України </p>
+
+                                    <p><strong><u>Завдання</u></strong>: фундаментальні наукові дослідження в галузі
+                                        фізики іоносфери, космічної
+                                        погоди, терагенних та антропогенних ефектів в космосі</p>
+
+                                    <p><strong><u>Координатор проекту</u></strong>: Інститут космічних досліджень
+                                        Національної академії наук
+                                        України
+                                        та Державного космічного агентства</p>
+
+                                    <p><strong><u>Космічний апарат</u></strong>: «Мікросат-М»</p>
+
+                                    <p><strong><u>Виробник космічного апарату</u></strong>: Державне підприємство «КБ
+                                        «Південне» ім. М.К.
+                                        Янгеля</p>
+
+                                    <p><strong><u>Цільова апаратура</u></strong>: датчики параметрів електромагнітного
+                                        поля, нейтрального газу,
+                                        плазми</p>
+
+                                    <p><strong><u>Планований запуск</u></strong>: 2017 р.
+                                    <dl class="dl-horizontal">
+                                        <dt><u>Космодром</u></dt>
+                                        <dd>Алькантара</dd>
+                                        <dt><u>Ракета-носій</u></dt>
+                                        <dd>«Циклон-4»</dd>
+                                    </dl>
+                                    <p><strong><u>Орбіта</u></strong>: кругова, 650 км,
+                                        сонячно-синхронна 10:30–22:30 LST,
+                                        нахил 98</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<section class="container-fluid" id="section3">
+    <h2 class="text-center">Космічний апарат та орбіта</h2>
+
+    <div class="row">
+        <div class="col-sm-6 col-sm-offset-3">
+            <h4 class="text-center lato slideInUp animate">Супутникова платформа для проведення наукових та
+                технологічних експериментів:
+                <b>«Мікросат-М»</b>
+            </h4>
+            <br>
+
+            <div class="row">
+                <div class="col-xs-10 col-xs-offset-1">
+                    <table width="100%" border="2" class="table table-bordered">
+                        <tr>
+                            <td colspan="2"><h4 class="text-center"> Орбіта</h4></td>
+                        </tr>
+                        <tr>
+                            <td> Близько-кругова, експлуатаційний діапазон висот</td>
+                            <td> 620…710 км</td>
+                        </tr>
+                        <tr>
+                            <td> Нахил</td>
+                            <td> 97,9…98,2°</td>
+                        </tr>
+                        <tr>
+                            <td> Сонячно-синхронна, місцевий час в низхідному вузлі</td>
+                            <td> 10…14 год</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"><h4 class="text-center">Орієнтація</h4></td>
+                        </tr>
+                        <tr>
+                            <td> Тип</td>
+                            <td><span>Активна тривісна</span></td>
+                        </tr>
+                        <tr>
+                            <td><span>Точність орієнтації в орбітальній системі координат</span></td>
+                            <td>5° (3σ)</td>
+                        </tr>
+                        <tr>
+                            <td>Кутові швидкості стабілізації КА</td>
+                            <td>&lt; 0,01 °/с (3σ)</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"><h4 class="text-center">Передача даних на землю</h4></td>
+                        </tr>
+                        <tr>
+                            <td>Радіолінія Х-діапазону</td>
+                            <td><span>30.72 Мбіт/с</span></td>
+                        </tr>
+                        <tr>
+                            <td>Службова радіолінія S-діапазону</td>
+                            <td>32 Кбіт/с</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"><h4 class="text-center">Маса КА</h4></td>
+                        </tr>
+                        <tr>
+                            <td><span>Всього</span></td>
+                            <td><span>до 200 кг</span></td>
+                        </tr>
+                        <tr>
+                            <td>В тому числі,корисного навантаження</td>
+                            <td>до 75 кг</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"><h4 class="text-center">Гарантійний термін</h4></td>
+                        </tr>
+                        <tr>
+                            <td>Час функціонування КА</td>
+                            <td>не менше 3-х років</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"><h4 class="text-center">Похибки координатно-часової прив'язки
+                                вимірювань</h4></td>
+                        </tr>
+                        <tr>
+                            <td><span>Похибка позиціювання КА</span></td>
+                            <td><span>1 км</span></td>
+                        </tr>
+                        <tr>
+                            <td>Похибка визначення орієнтації КА (осей датчиків)</td>
+                            <td>1°</td>
+                        </tr>
+                        <tr>
+                            <td>Похибка шкали бортового часу</td>
+                            <td>1 мсек</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="container-fluid" id="section4">
+    <div class="row">
+        <div class="col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
+            <h2 class="text-center lato strong">КОМПЛЕКС НАУКОВОЇ АПАРАТУРИ</h2>
+            <hr>
+            <div class="media">
+                <h3 class="strong">Комплекс наукової апаратури в цілому</h3>
+
+                <div class="media-body media-middle">
+                    <p>маса до 20 кг<br>
+                        енергоспоживання до 51 Вт<br>
+                        інформативність до 6 Гбайт за добу</p>
+                </div>
+            </div>
+            <hr>
+            <div class="media">
+                <h3 class="strong">Магнітно-хвильовий комплекс MWC </h3>
+
+                <div class="media-left">
+                    <img src="img/100.png">
+                </div>
+                <div class="media-body media-middle">
+                    <p>В складі ферозондового магнітометру FGM, 3-х хвильових зондів WP, електричного зонду ЕР</p>
+
+                    <p>Вимірювальні параметри: 3 компоненти магнітного поля, 3 компоненти електричного поля, 3
+                        компоненти густини електричного струму в плазмі.</p>
+                    PI: С.М. Беляєв, Львівський центр Інституту космічних досліджень, м. Львів, Україна
+                </div>
+            </div>
+            <hr>
+            <div class="media">
+                <h3 class="strong">Спектроаналізатор RFA</h3>
+
+                <div class="media-body media-middle">
+                    <p>Вимірювальні параметри: спектри 3-х компонент електричного поля.</p>
+                    PI: H. Rothkaehl, Центр космічних досліджень, м. Варшава, Польща
+                </div>
+                <div class="media-right">
+                    <img src="img/100.png">
+                </div>
+            </div>
+            <hr>
+            <div class="media">
+                <h3 class="strong">Аналізатор густини частинок</h3>
+
+                <div class="media-left">
+                    <img src="img/100.png">
+                </div>
+                <div class="media-body media-middle">
+                    <p>В складі блока датчиків нейтрального компоненту плазми DN і блока датчиків електронного
+                        компоненту плазми DE</p>
+
+                    <p>Вимірювальні параметри: концентрації і температури нейтральних і заряджених частинок.</p>
+                    PI: В. Шувалов, Інститут технічної механіки, м. Дніпропетровськ, Україна
+                </div>
+            </div>
+            <hr>
+            <div class="media">
+                <h3 class="strong">Іонний дрейфометр IDM</h3>
+
+                <div class="media-body media-middle">
+                    <p>Вимірювальні параметри: концентрація, температура та швидкість дрейфу іонної компоненти плазми,
+                        поперечна компонента DC електричного поля.</p>
+                    PI: Л. Банков, Інститут космічних досліджень і технологій, м. Софія, Болгарія
+                </div>
+                <div class="media-right">
+                    <img src="img/100.png">
+                </div>
+            </div>
+            <hr>
+            <div class="media">
+                <h3 class="strong">Система збору наукової інформації.</h3>
+
+                <div class="media-left">
+                    <img src="img/100.png">
+                </div>
+                <div class="media-body media-middle">
+                    <p>PI: А. Лукенюк, Львівський центр Інституту космічних досліджень, м. Львів, Україна</p>
+                </div>
+            </div>
+            <hr>
+
+
+        </div>
+    </div>
+</section>
+
+<section class="container-fluid" id="section5">
+    <div class="row">
+        <div class="col-md-12">
+            <h2 class="text-center">Дані спостережень</h2>
+            <hr>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-10 col-md-offset-1">
+            Дані вимірювань зберігаються на веб-ресурсі Центру оброблення наукової інформації проекту PROMIS.
+            Учасники проекту мають доступ до всіх рівнів даних. Через півроку після моменту спостереження у вільному
+            доступі розміщуються дані 2-го рівня обробки (тарировані та прив’язані до місця і часу дані, забезпечені
+            потрібною для наукового аналізу супроводжувальною інформацією).
+            <hr>
+            <h4 class="text-center">В публікаціях, основаних на результатах проекту «Іоносат – Мікро»<br>
+                треба вказувати посилання на авторські права</h4>
+
+            <div class="row">
+
+                <div class="col-sm-4">
+                    <div class="row">
+                        <div class="col-sm-12 text-center">
+                            <div class="panel panel-default slideInLeft animate">
+                                <div class="panel-heading"></div>
+                                <div class="panel-body">
+                                    «Дані вимірювань надані колективом проекту «Іоносат – Мікро», який реалізується
+                                    в рамках космічної програми України (http://promis.ikd.kiev.ua/)»
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 text-center">
+                    <div class="row">
+                        <div class="col-sm-12 text-center">
+                            <div class="panel panel-default slideInUp animate">
+                                <div class="panel-heading"></div>
+                                <div class="panel-body">
+                                    «Данные измерений предоставлены коллективом проекта «Ионосат – Микро»,
+                                    реализуемого в рамках
+                                    космической программы Украины (http://promis.ikd.kiev.ua/)»
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 text-center">
+                    <div class="row">
+                        <div class="col-sm-12 text-center">
+                            <div class="panel panel-default slideInRight animate">
+                                <div class="panel-heading"></div>
+                                <div class="panel-body">
+                                    «The measurement data are provided by the team of Ionosat – Micro Mission that
+                                    is realized in
+                                    the frame of the Space Programme of Ukraine (http://promis.ikd.kiev.ua/)»
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-8 col-sm-offset-2">
+                    <h3 class="text-center">Структура даних</h3>
+                    <table class="table">
+                        <tr>
+                        <tr>
+                            <th class="text-center">Магнітно-хвильовий комплекс MWC:</th>
+                        </tr>
+                        <tr>
+                            <td>3 компоненти DC магнітного поля (0–1 Гц в системі відліку КА)</td>
+                        </tr>
+                        <tr>
+                            <td>3 компоненти АС магнітного поля (в діапазоні 1 Гц – Fmax)</td>
+                        </tr>
+                        <tr>
+                            <td>3 компоненти електричного поля (в діапазоні 1 Гц – Fmax)</td>
+                        </tr>
+                        <tr>
+                            <td>3 компоненти густини електричного струму (в діапазоні 1 Гц – Fmax)</td>
+                        </tr>
+                        <tr>
+                            <th class="text-center">Параметр максимальної частоти Fmax становить</th>
+                        </tr>
+                        <tr>
+                            <td>В режимі «ВЧ спостережень» Fmax = 18,5 кГц</td>
+                        </tr>
+                        <tr>
+                            <td>В режимі «швидкого моніторингу» Fmax = 11,9 кГц</td>
+                        </tr>
+                        <tr>
+                            <td>В режимі «повільного моніторингу» Fmax = 375 Гц</td>
+                        </tr>
+                        <tr>
+                            <th class="text-center">Спектроаналізатор RFA:</th>
+                        </tr>
+                        <tr>
+                            <td>Спектри 3-х компонент електричного поля в діапазоні 20 кГц – 15 МГц (з частотою
+
+                                з’йому даних 10 Гц)
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>Блок датчиків нейтрального компоненту плазми DN:</th>
+                        </tr>
+                        <tr>
+                            <td>Концентрація і температура нейтрального газу (з частотою з’йому даних 10 Гц)</td>
+                        </tr>
+                        <tr>
+                            <th class="text-center">Блок датчиків електронного компонента плазми DE:</th>
+                        </tr>
+                        <tr>
+                            <td>концентрація і температура теплової електронної компоненти плазми (з частотою з’йому
+                                даних 10 Гц)
+                            </td>
+                        </tr>
+                        <tr>
+                            <th class="text-center">Іонний дрейфометр IDM:</th>
+                        </tr>
+                        <tr>
+                            <td>Концентрація, температура та швидкість дрейфу іонної компоненти плазми, поперечна
+                                компонента DC електричного поля (з частотою з’йому даних 10 Гц)
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="container-fluid" id="section6">
+    <h2 class="text-center strong">Консорціум</h2>
+
+    <div class="row">
+        <div class="col-sm-12 col-md-10 col-md-offset-1">
+            <div class="row">
+                <div class="col-sm-10 col-sm-offset-1">
+                    <table class="table table-bordered">
+                        <tr>
+                            <th>Організація – учасник</th>
+                            <th>Участь в проекті</th>
+                        </tr>
+                        <tr>
+                            <td colspan="2"><h4 class="text-center strong">Україна </h4></td>
+                        </tr>
+                        <tr>
+                            <td>Інститут космічних досліджень,
+                                м. Київ
+                            </td>
+                            <td>Наукове керівництво проектом, управління ходом космічних вимірювань, оброблення,
+                                зберігання та розповсюдження даних
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>ДП «КБ «Південне»,
+                                м. Дніпропетровськ
+                            </td>
+                            <td>Створення КА «Мікросат-М», інтеграція корисного навантаження, планування роботи КА,
+                                формування супроводжувальної інформації о параметрах КА
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Львівський центр Інституту космічних досліджень,
+                                м. Львів
+                            </td>
+                            <td>Координація робіт по створенню бортового комплексу наукової апаратури, виготовлення
+                                магнітно-хвильового комплексу MWC, блоку електроніки для датчиків DN і DE, системи збору
+                                наукової інформації, проведення космічних вимірювань, оброблення даних
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Інститут технічної механіки,
+                                м. Дніпропетровськ
+                            </td>
+                            <td>Виготовлення датчиків DN і DE, проведення космічних вимірювань, оброблення даних</td>
+                        </tr>
+                        <tr>
+                            <td>Національний центр управління та випробування космічних засобів,
+                                м. Дунаєвці Хмельницької обл.
+                            </td>
+                            <td>Управління польотом, прийом наукової та телеметричної інформації з борта КА</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"><h4 class="text-center strong">Польща</h4></td>
+                        </tr>
+                        <tr>
+                            <td>Центр космічних досліджень,
+                                м. Варшава
+                            </td>
+                            <td>Виготовлення приладу RFA, проведення космічних вимірювань, оброблення даних</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"><h4 class="text-center strong">Болгарія</h4></td>
+                        </tr>
+                        <tr>
+                            <td>Інститут космічних досліджень та технологій,
+                                м. Софія
+                            </td>
+                            <td>Виготовлення приладу IDM, проведення космічних вимірювань, оброблення даних</td>
+                        </tr>
+                    </table>
+                    <h3 class="text-center strong">Керівництво проектом:</h3>
+                    Науковий керівник – <a href="mailto:georgii.lizunov@gmail.com">Георгій В’ячеславович
+                    Лізунов</a> <br>
+                    Технічний керівник – <a href="mailto:luk@isr.lviv.ua">Адольф Антонович Лукенюк</a> <br>
+                    Керівник робіт по створенню космічного апарату – <a href="mailto:info@yuzhnoye.com">Олександр
+                    Леонідович Макаров</a>
+                    <br>
+
+                    <h3 class="text-center strong">Відповідальні за напрямки</h3>
+                    <table class="table table-bordered">
+                        <tr>
+                            <td colspan="2"><h4 class="text-center">Наукова координація </h4></td>
+                        </tr>
+                        <tr>
+                            <td>Георгій В’ячеславович Лізунов <br>
+                                <a href="mailto:georgii.lizunov@gmail.com">georgii.lizunov@gmail.com</a></td>
+                            <td>Загальне керівництво</td>
+                        </tr>
+                        <tr>
+                            <td>Олексій Сергійович Парновський <br>
+                                <a href="mailto:parnowski@gmail.com">parnowski@gmail.com</a>
+                            </td>
+                            <td>Група управління ходом космічного експерименту</td>
+                        </tr>
+                        <tr>
+                            <td>Олена Володимирівна П’янкова <br>
+                                <a href="mailto:el.piankova@gmail.com">el.piankova@gmail.com</a></td>
+                            <td>Центр оброблення, зберігання та розповсюдження наукової інформації PROMIS</td>
+                        </tr>
+                        <tr>
+                            <td>Тетяна Владиславівна Скороход <br>
+                                <a href="mailto:tayna_83@ukr.net">tayna_83@ukr.net</a></td>
+                            <td>Інформаційний супровід, медіа-дані</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"><h4 class="text-center">Комплекс наукової апаратури</h4></td>
+                        </tr>
+                        <tr>
+                            <td>Адольф Антонович Лукенюк <br>
+                                <a href="mailto:luk@isr.lviv.ua">luk@isr.lviv.ua</a></td>
+                            <td>Загальне керівництво
+                                Система збирання наукової інформації
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Сергій Михайлович Беляєв <br>
+                                <a href="mailto:belyayev@isr.lviv.ua">belyayev@isr.lviv.ua</a></td>
+                            <td>Магнітно-хвильовий комплекс MWC</td>
+                        </tr>
+                        <tr>
+                            <td>Hanna Rothkaehl <br>
+                                <a href="mailto:hrot@cbk.waw.pl"> hrot@cbk.waw.pl</a></td>
+                            <td>Спектроаналізатор RFA</td>
+                        </tr>
+                        <tr>
+                            <td>Валентин Олексійович Шувалов <br>
+                                <a href="mailto:shuv@vash.dp.ua">shuv@vash.dp.ua</a></td>
+                            <td>Аналізатор густини частинок DN – DE</td>
+                        </tr>
+                        <tr>
+                            <td>Людмил Банков<br>
+                                <a href="mailto:ludmil.bankov@gmail.com">ludmil.bankov@gmail.com</a></td>
+                            <td>Іонний дрейфометр IDM</td>
+                        </tr>
+                        <tr>
+                            <td colspan=" 2"><h4 class="text-center">Космічний апарат</h4></td>
+                        </tr>
+                        <tr>
+                            <td>Олександр Леонідович Макаров <br>
+                                <a href="mailto:info@yuzhnoye.com">info@yuzhnoye.com</a></td>
+                            <td>Загальне керівництво</td>
+                        </tr>
+                        <tr>
+                            <td>Олександр Геннадійович Меланченко<br>
+                                <a href="mailto:info@yuzhnoye.com">info@yuzhnoye.com</a>
+                            </td>
+                            <td>Створення та експлуатація КА «Мікросат-М»
+                                Формування супроводжувальної інформації
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"><h4 class="text-center">Управління польотом та прийом даних</h4></td>
+                        </tr>
+                        <tr>
+                            <td>Євген Дмитрович Ярмольчук<br>
+                                <a href="mailto:info@yuzhnoye.com">info@yuzhnoye.com</a></td>
+                            <td>Підсистема формування координаційного плану роботи КА</td>
+                        </tr>
+                        <tr>
+                            <td>НЦУВКЗ</td>
+                            <td>Центр управління польотом
+                                Прийом наукової та телеметричної інформації
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan=" 2"><h4 class="text-center">Управління польотом та прийом даних</h4></td>
+                        </tr>
+                        <tr>
+                            <td>Леонід Феоктистович Чорногор <br>
+                                <a href="mailto:leonid.f.chernogor@univer.kharkov.ua">leonid.f.chernogor@univer.kharkov.ua</a>
+                            </td>
+                            <td>Загальне керівництво
+                                Радіофізична обсерваторія Харківського національного університету імені В.Н. Каразіна
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section class="container-fluid" id="section7">
+    <div class="row">
+        <div class="col-md-12">
+            <h2 class="text-center">Джерела</h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-10 col-md-offset-1">
+            <div class="row">
+                <blockquote class="col-md-10">
+                    <p> Глобальные пространственные характеристики среднемасштабных волнообразных неоднородностей на
+                        высотах
+                        области F ионосферы при различных уровнях геомагнитной активности
+                        13c. 1990</p>
+                    <footer>Фаткуллин М. Н., Заруцкая Е. В., Фаткуллина В. А. <cite title="Source Title">Препр. № 41
+                        (926).
+                        М.: ИЗМИРАН.</cite></footer>
+                </blockquote>
+                <blockquote class="col-md-10 col-md-offset-1">
+                    <p>Global propagation of atmospheric gravity waves: a review // J. Atmos. Terr. Phys. v.37. № 6-7.
+                        p.1011–1054. 1975.</p>
+                    <footer>Francis S.H.</footer>
+                </blockquote>
+                <blockquote class="col-md-10">
+                    <p>Internal gravity waves at ionospheric heights</p>
+                    <footer>Can. J. Phys. v.38. № 11. p.1441–1481. 1960.<cite title="Source Title">Hines C.O.</cite>
+                    </footer>
+                </blockquote>
+                <blockquote  class="col-md-10 col-md-offset-1">
+                    <p>A review of atmospheric gravity waves and travelling ionospheric disturbances: 1982-1995 // Ann.
+                        Geophys. v.14. № 9. p.917–940. 1996.</p>
+                    <footer>Hocke K., Schlegel K.</footer>
+                </blockquote>
+                <blockquote  class="col-md-10">
+                    <p>On the importance of the purely gravitationally induced density, pressure and temperature
+                        variations
+                        in gravity waves: Their application to airglow observations // J. Geophys. Res. v.95. № A4.
+                        p.4103-4111. 1990.</p>
+                    <footer>Makhlouf U., Dewan E., Isler J.R., Tuan T.F.</footer>
+                </blockquote>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<footer id="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-6 col-sm-6 col-md-3 column">
+                <h4>Information</h4>
+                <ul class="nav">
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Benefits</a></li>
+                    <li><a href="#">Developers</a></li>
+                </ul>
+            </div>
+            <div class="col-xs-6 col-md-3 column">
+                <h4>Follow Us</h4>
+                <ul class="nav">
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Google+</a></li>
+                    <li><a href="#">Pinterest</a></li>
+                </ul>
+            </div>
+            <div class="col-xs-6 col-md-3 column">
+                <h4>Contact Us</h4>
+                <ul class="nav">
+                    <li><a href="#">Email</a></li>
+                    <li><a href="#">Headquarters</a></li>
+                    <li><a href="#">Management</a></li>
+                    <li><a href="#">Support</a></li>
+                </ul>
+            </div>
+            <div class="col-xs-6 col-md-3 column">
+                <h4>Customer Service</h4>
+                <ul class="nav">
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Delivery Information</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms &amp; Conditions</a></li>
+                </ul>
+            </div>
+        </div>
+        <!--/row-->
+        <p class="text-right">© <a href="https://github.com/MammutCris">mammut</a></p>
+    </div>
+</footer>
+
+<div class="scroll-up">
+    <a href="#"><i class="fa fa-angle-up"></i></a>
+</div>
+
+<div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h2 class="text-center"><img src="img/110.png" class="img-circle"><br>Login</h2>
+            </div>
+            <div class="modal-body row">
+                <h6 class="text-center">COMPLETE THESE FIELDS TO SIGN UP</h6>
+
+                <form class="col-md-10 col-md-offset-1 col-xs-12 col-xs-offset-0">
+                    <div class="form-group">
+                        <input type="text" class="form-control input-lg" placeholder="Email">
+                    </div>
+                    <div class="form-group">
+                        <input type="password" class="form-control input-lg" placeholder="Password">
+                    </div>
+                    <div class="form-group">
+                        <button class="btn btn-danger btn-lg btn-block">Sign In</button>
+                        <span class="pull-right"><a href="#">Register</a></span><span><a href="#">Need help?</a></span>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <h6 class="text-center"><a href="">Privacy is important to us. Click here to read why.</a></h6>
+            </div>
+        </div>
+    </div>
+</div>
+<!--scripts loaded here-->
+
+<script src="node_modules/jquery/dist/jquery.min.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+<script src="js/scripts.js"></script>
+</body>
+</html>
