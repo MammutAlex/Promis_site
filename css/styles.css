@@ -359,3 +359,11 @@ blockquote{
     width: 30px;
     margin-bottom: 0;
 }
+.fotorama__select{
+    background-color: #b4c7d7;
+}
+
+.fotorama__select .panel-heading{
+    background-color: #173e55;
+    color: white;
+}
