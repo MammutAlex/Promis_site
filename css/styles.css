@@ -157,7 +157,7 @@ section {
 
 #section2 {
 
-    background-color: #d1d1d1;
+    background-color: #b4c7d7;
 }
 
 #section3 {
@@ -167,7 +167,7 @@ section {
 
 #section4 {
 
-    background-color: #d1d1d1;
+    background-color: #b4c7d7;
 }
 
 #section5 {
@@ -176,7 +176,7 @@ section {
 }
 
 #section6 {
-    background-color: #d1d1d1;
+    background-color: #b4c7d7;
     min-height: 130px;
     padding-top: 40px;
     padding-bottom: 40px;
@@ -330,7 +330,7 @@ section {
 }
 
 .width-companion {
-    width: 110%;
+    width: 100%;
 }
 .color{
     background: rgba(37, 37, 37, 0.8) center no-repeat fixed url('../img/background2.jpg');
@@ -347,4 +347,15 @@ td{
 }
 .titles{
     color: #777;
+}
+.img-thumbnail{
+    background-color: rgba(180, 199, 215, 0.66);
+}
+blockquote{
+    border-left: 2px solid #eee;
+    font-size: 14px;
+}
+.flag-wrapper {
+    width: 5%;
+    margin-bottom: 0;
 }
